@@ -3,6 +3,7 @@ void main() {
   print(Kabar());
   var UcapanSyukur = "Alhamdulilah";
   jawaban(UcapanSyukur);
+  print(greetings2("Didi"));
 }
 
 void greetings() {
@@ -15,4 +16,8 @@ String Kabar() {
 
 void jawaban(UcapanSyukur) {
   print("$UcapanSyukur sangat baik");
+}
+
+String greetings2(String nama) {
+  return "Kamu Apa Kabar $nama?";
 }
